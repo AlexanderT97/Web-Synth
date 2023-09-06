@@ -1,15 +1,15 @@
-const cis = new Audio("/sounds/Cis.wav");
-const dis = new Audio("/sounds/Dis.wav");
-const fis = new Audio("/sounds/Fis.wav");
-const gis = new Audio("/sounds/Gis.wav");
-const ais = new Audio("/sounds/Ais.wav");
-const c = new Audio("/sounds/C.wav");
-const d = new Audio("/sounds/D.wav");
-const e = new Audio("/sounds/E.wav");
-const f = new Audio("/sounds/F.wav");
-const g = new Audio("/sounds/G.wav");
-const a = new Audio("/sounds/A.wav");
-const b = new Audio("/sounds/B.wav");
+const cis = new Audio("sounds/Cis.wav");
+const dis = new Audio("sounds/Dis.wav");
+const fis = new Audio("sounds/Fis.wav");
+const gis = new Audio("sounds/Gis.wav");
+const ais = new Audio("sounds/Ais.wav");
+const c = new Audio("sounds/C.wav");
+const d = new Audio("sounds/D.wav");
+const e = new Audio("sounds/E.wav");
+const f = new Audio("sounds/F.wav");
+const g = new Audio("sounds/G.wav");
+const a = new Audio("sounds/A.wav");
+const b = new Audio("sounds/B.wav");
 
 let whiteshadowC = document.getElementById("whiteshadowC");
 let whiteshadowD = document.getElementById("whiteshadowD");
