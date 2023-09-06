@@ -236,6 +236,6 @@ function eestop(){
 
 let timeOut = setTimeout(eestop, 67000);
 
-document.getElementById("Easter-Egg").addEventListener("click", eeplay);
-document.getElementById("Easter-Egg").addEventListener("click", eestop);
-document.getElementById("Easter-Egg").addEventListener("click", animate);
+document.getElementById("EasterEgg").addEventListener("click", eeplay);
+document.getElementById("EasterEgg").addEventListener("click", eestop);
+document.getElementById("EasterEgg").addEventListener("click", animate);
