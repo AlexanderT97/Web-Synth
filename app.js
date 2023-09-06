@@ -154,88 +154,88 @@ document.addEventListener("keydown", function(info){
 
 
 
-let easter_egg = new Audio("/sounds/Easter_Egg.mp3");
+let easteregg = new Audio("sounds/Easter-Egg.mp3");
 
-function ee_play(){
-    easter_egg.play();
+function eeplay(){
+    easteregg.play();
 }
 
 let htmlnotes = '<img class="note">';
 let animation;
 
 function animate(){
-    if(animation = document.getElementById("note_1")){
+    if(animation = document.getElementById("note-1")){
          animation.innerHTML = htmlnotes;
-         animation.classList.add("music_animation");
+         animation.classList.add("music-animation");
     }
-    if(animation = document.getElementById("note_2")){
+    if(animation = document.getElementById("note-2")){
         animation.innerHTML = htmlnotes;
-        animation.classList.add("music_animation");
+        animation.classList.add("music-animation");
     }
-    if(animation = document.getElementById("note_3")){
+    if(animation = document.getElementById("note-3")){
         animation.innerHTML = htmlnotes;
-        animation.classList.add("music_animation");
+        animation.classList.add("music-animation");
     }
-    if(animation = document.getElementById("note_4")){
+    if(animation = document.getElementById("note-4")){
         animation.innerHTML = htmlnotes;
-        animation.classList.add("music_animation");
+        animation.classList.add("music-animation");
     } 
-    if(animation = document.getElementById("note_5")){
+    if(animation = document.getElementById("note-5")){
         animation.innerHTML = htmlnotes;
-        animation.classList.add("music_animation");
+        animation.classList.add("music-animation");
     }
-    if(animation = document.getElementById("note_6")){
+    if(animation = document.getElementById("note-6")){
         animation.innerHTML = htmlnotes;
-        animation.classList.add("music_animation");
+        animation.classList.add("music-animation");
     }
-    if(animation = document.getElementById("note_7")){
+    if(animation = document.getElementById("note-7")){
         animation.innerHTML = htmlnotes;
-        animation.classList.add("music_animation");
+        animation.classList.add("music-animation");
     }
-    if(animation = document.getElementById("note_8")){
+    if(animation = document.getElementById("note-8")){
         animation.innerHTML = htmlnotes;
-        animation.classList.add("music_animation");
-    }
-}
-
-
-function ee_stop(){
-    if(animation = document.getElementById("note_1")){
-        animation.innerHTML = htmlnotes;
-        animation.classList.remove("music_animation");
-    }
-    if(animation = document.getElementById("note_2")){
-        animation.innerHTML = htmlnotes;
-        animation.classList.remove("music_animation");
-    }
-    if(animation = document.getElementById("note_3")){
-        animation.innerHTML = htmlnotes;
-        animation.classList.remove("music_animation");
-    }
-    if(animation = document.getElementById("note_4")){
-        animation.innerHTML = htmlnotes;
-        animation.classList.remove("music_animation");
-    }
-    if(animation = document.getElementById("note_5")){
-        animation.innerHTML = htmlnotes;
-        animation.classList.remove("music_animation");
-    }
-    if(animation = document.getElementById("note_6")){
-        animation.innerHTML = htmlnotes;
-        animation.classList.remove("music_animation");
-    }
-    if(animation = document.getElementById("note_7")){
-        animation.innerHTML = htmlnotes;
-        animation.classList.remove("music_animation");
-    }
-    if(animation = document.getElementById("note_8")){
-        animation.innerHTML = htmlnotes;
-        animation.classList.remove("music_animation");
+        animation.classList.add("music-animation");
     }
 }
 
-let timeOut = setTimeout(ee_stop, 67000);
 
-document.getElementById("Easter_Egg").addEventListener("click", ee_play);
-document.getElementById("Easter_Egg").addEventListener("click", ee_stop);
+function eestop(){
+    if(animation = document.getElementById("note-1")){
+        animation.innerHTML = htmlnotes;
+        animation.classList.remove("music-animation");
+    }
+    if(animation = document.getElementById("note-2")){
+        animation.innerHTML = htmlnotes;
+        animation.classList.remove("music-animation");
+    }
+    if(animation = document.getElementById("note-3")){
+        animation.innerHTML = htmlnotes;
+        animation.classList.remove("music-animation");
+    }
+    if(animation = document.getElementById("note-4")){
+        animation.innerHTML = htmlnotes;
+        animation.classList.remove("music-animation");
+    }
+    if(animation = document.getElementById("note-5")){
+        animation.innerHTML = htmlnotes;
+        animation.classList.remove("music-animation");
+    }
+    if(animation = document.getElementById("note-6")){
+        animation.innerHTML = htmlnotes;
+        animation.classList.remove("music-animation");
+    }
+    if(animation = document.getElementById("note-7")){
+        animation.innerHTML = htmlnotes;
+        animation.classList.remove("music-animation");
+    }
+    if(animation = document.getElementById("note-8")){
+        animation.innerHTML = htmlnotes;
+        animation.classList.remove("music-animation");
+    }
+}
+
+let timeOut = setTimeout(eestop, 67000);
+
+document.getElementById("Easter_Egg").addEventListener("click", eeplay);
+document.getElementById("Easter_Egg").addEventListener("click", eestop);
 document.getElementById("Easter_Egg").addEventListener("click", animate);
